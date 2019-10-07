@@ -1,0 +1,9 @@
+FROM java:8-jdk-alpine
+
+WORKDIR /app
+
+COPY ./target/api-gateway.jar /app
+
+EXPOSE 8888
+ENTRYPOINT ["java", "-jar", "api-gateway.jar"]
+

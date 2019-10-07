@@ -7,10 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="exteranaldatasservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.8" />
+      <module name="com.confdevscom.external-data-service.main" target="1.8" />
+      <module name="com.confdevscom.external-data-service.test" target="1.8" />
+      <module name="com.devscom.external-data-services.main" target="1.8" />
+      <module name="com.devscom.external-data-services.test" target="1.8" />
+      <module name="com.devscom.gn.user-service.main" target="1.8" />
+      <module name="com.devscom.gn.user-service.test" target="1.8" />
+      <module name="exteranaldatasservice" target="1.8" />
+      <module name="external-data-service.main" target="1.8" />
+      <module name="external-data-service.test" target="1.8" />
+      <module name="spark-core" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

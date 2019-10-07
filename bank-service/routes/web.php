@@ -11,9 +11,14 @@
 |
 */
 
-$router->get('/', function () use ($router) {
+$router->get('/presentation', function () use ($router) {
     return response()->json([
-        'name' => 'Abigail',
-        'state' => 'USA'
+        'name' => 'Bank Service',
+        'language' => 'PHP',
+        'framework' => 'laravel/lumen',
+        'version' => '6',
+        'role' => 'Je suis le service qui interagit avec la banque x pour son service y',
+        'desc' => 'We love microservice yes',
+        'siteOfficiel' => 'https://lumen.laravel.com',
     ]);
 });

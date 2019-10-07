@@ -1,0 +1,15 @@
+FROM zenika/alpine-maven
+
+WORKDIR /app
+
+COPY pom.xml .
+
+COPY . .
+
+RUN mvn clean package
+
+EXPOSE 8888
+ENTRYPOINT ["java", "-jar", "target/api-gateway.jar"]
+
+
+
