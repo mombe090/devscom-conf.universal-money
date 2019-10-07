@@ -18,6 +18,20 @@ class MicroserviceGatewayController(
 ) {
     val log = LoggerFactory.getLogger(MicroserviceGatewayController::class.java)
 
+    @GetMapping("presentation")
+    fun presentation(): Presentation {
+        log.info("Fetching data on the gateway")
+        return Presentation(
+            "Api Gateway",
+            "Kotlin",
+            "SPRING BOOT",
+            "2.1.9",
+            "Je suis chargé de distribuer les requetes au microservices et renvoyer le la response au client",
+            "OMG we are the most one who love microservices, we are spring boot",
+            "https://spring.io/"
+        )
+    }
+
     @GetMapping("user-services")
     fun userServicePresentation(): Presentation {
         log.info("Fetching data on user-microservice through the gateway")
