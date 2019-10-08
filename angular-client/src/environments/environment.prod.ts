@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  api_gateway_url: 'localhost'
 };
