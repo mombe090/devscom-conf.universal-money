@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29abb066-8197-436e-a390-576c48c3b394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-service/DockerfileJenksConf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/angular-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile-payment-service/flask-restful" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-payment-service/flask-restful" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile-payment-service/flask-restful/AUTHORS.md" beforeDir="false" />
@@ -107,25 +108,6 @@
     <expand />
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="627">
-                    <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/external-data-service">
       <ProjectState />
@@ -184,7 +166,7 @@
         <entry file="file://$PROJECT_DIR$/user-service/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-310">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -201,8 +183,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user-service/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="308">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -580,52 +562,7 @@
           <expand>
             <path>
               <item name="conf-universal-money" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.devscom.gn" type="9c53a853:ProjectViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="conf-universal-money" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.devscom.gn" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="conf-universal-money" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.devscom.gn" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="conf-universal-money" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.devscom.gn" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="conf-universal-money" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.devscom.gn" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="conf-universal-money" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.devscom.gn" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="gn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="conf-universal-money" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.devscom.gn" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="gn" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.kt" type="24436e51:KtFileTreeNode" />
+              <item name="angular-client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -642,11 +579,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570479035783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570533067088" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/external-data-webservice" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/angular-client/node_modules/tslint" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -699,7 +640,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="npm.Angular CLI Server (angular-client)">
     <configuration name="ApplicationBoostrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.confdevscom.gn.ApplicationBoostrap" />
       <module name="exteranaldatasservice" />
@@ -778,6 +719,17 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="E2E Tests (angular-client)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/angular-client/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (angular-client)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="com.devscom.external-data-services" />
@@ -936,6 +888,16 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="Angular CLI Server (angular-client)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/angular-client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <module name="com.devscom.external-data-services" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1042,17 +1004,18 @@
       <workItem from="1570217248008" duration="3047000" />
       <workItem from="1570278486446" duration="11909000" />
       <workItem from="1570323157923" duration="22827000" />
-      <workItem from="1570448021915" duration="23161000" />
+      <workItem from="1570448021915" duration="28467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71457000" />
+    <option name="totallyTimeSpent" value="76763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="0" width="1555" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="npm" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25613803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -1063,14 +1026,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49900463" visible="true" weight="0.22834645" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49900463" weight="0.12860893" />
       <window_info anchor="bottom" id="Docker" order="10" sideWeight="0.4996682" weight="0.48707482" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50099534" side_tool="true" weight="0.38845146" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -1407,13 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-service/DockerfileJenksConf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1424,14 +1380,21 @@
     <entry file="file://$PROJECT_DIR$/user-service/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-310">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
