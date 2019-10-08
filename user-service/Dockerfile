@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY build.gradle .
 
-RUN gradle clean buildlllll
+RUN gradle clean build
 
 COPY . .
 
