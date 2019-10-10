@@ -20,26 +20,26 @@ export class ApiGatewayService {
   ) {}
 
   getApiGatewayServicePresentation() {
-    return this.http.get(`${environment.api_gateway_url}:/presentation`, HTTPOPTION);
+    return this.http.get(`${environment.api_gateway_url}/presentation`, HTTPOPTION);
   }
 
   getUserServicePresentation() {
-    return this.http.get(`${environment.api_gateway_url}:/user-services`, HTTPOPTION);
+    return this.http.get(`${environment.api_gateway_url}/user-services`, HTTPOPTION);
   }
 
   getBitcoinServicePresentation() {
-    return this.http.get(`${environment.api_gateway_url}:/bitcoin-services`, HTTPOPTION);
+    return this.http.get(`${environment.api_gateway_url}/bitcoin-services`, HTTPOPTION);
   }
 
   getMobilePaymentServicePresentation() {
-    return this.http.get(`${environment.api_gateway_url}:/mobile-payment-services`, HTTPOPTION);
+    return this.http.get(`${environment.api_gateway_url}/mobile-payment-services`, HTTPOPTION);
   }
 
   getExternalServicePresentation() {
-    return this.http.get(`${environment.api_gateway_url}:/external-data-services`, HTTPOPTION);
+    return this.http.get(`${environment.api_gateway_url}/external-data-services`, HTTPOPTION);
   }
 
   getBankServicePresentation() {
-    return this.http.get(`${environment.api_gateway_url}:/bank-services`, HTTPOPTION);
+    return this.http.get(`${environment.api_gateway_url}/bank-services`, HTTPOPTION);
   }
 }

@@ -1,4 +1,4 @@
-package com.conf.devscom.apigateway;
+package com.conf.devscom.apigateway.configs;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

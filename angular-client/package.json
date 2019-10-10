@@ -6,6 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "build:prod": "ng build --prod --outputHashing=all --buildOptimizer=true --aot=true --optimization=true",
+    "build:test": "ng build --prod=false --outputHashing=all --buildOptimizer=true --aot=true --optimization=true",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },

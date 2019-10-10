@@ -8,35 +8,63 @@ services:
     restart: always
     ports:
       - '8888:8888'
+    networks:
+      - conf-cluster-network
 
 #user microservice
   users:
     restart: on-failure
     build:
       context: ./user-service
-    ports:
-      - '7000:7000'
+    #ports:
+      #- '7000:7000'
+    networks:
+      - conf-cluster-network
 
   #user microservice
   external-data:
     restart: on-failure
     build:
       context: ./exteranaldatasservice
-    ports:
-      - '4567:4567'
+    #ports:
+      #- '4567:4567'
+    networks:
+      - conf-cluster-network
 
   #user microservice
   mobile-payment:
     restart: on-failure
     build:
       context: ./mobile-payment-service
-    ports:
-      - '5000:5000'
+    #ports:
+      #- '5000:5000'
+    networks:
+      - conf-cluster-network
 
   #bitcoin-money microservice
   bitcoin-money:
     restart: on-failure
     build:
       context: ./bitcoin-money-service
+    #ports:
+      #- '3333:3333'
+    networks:
+      - conf-cluster-network
+
+  #user microservice
+  angular-client:
+    restart: on-failure
+    build:
+      context: ./angular-client
     ports:
-      - '3333:3333'
+    - '9090:80'
+    networks:
+      - universal-money-front
+
+#Docker Networks
+networks:
+  conf-cluster-network:
+    driver: bridge
+
+  universal-money-front:
+    driver: bridge

@@ -19,46 +19,59 @@ export class AppComponent {
     private apiGatewayService: ApiGatewayService
   ) {
     this.userService();
-/*    this.mobileService();
+    this.mobileService();
     this.externalService();
     this.bankService();
     this.apiGatewayServices();
-    this.apiBitcoinServices();*/
+    this.apiBitcoinServices();
   }
 
   userService() {
     this.apiGatewayService.getUserServicePresentation().subscribe((res: PresentationInterface) => {
+      console.log(res);
       this.userPresentation = res;
+    }, error1 => {
+      console.log(error1);
     });
   }
 
   mobileService() {
     this.apiGatewayService.getMobilePaymentServicePresentation().subscribe((res: PresentationInterface) => {
       this.mobilePaymentPresentation = res;
+    }, error1 => {
+      console.log(error1);
     });
   }
 
   externalService() {
     this.apiGatewayService.getExternalServicePresentation().subscribe((res: PresentationInterface) => {
       this.externalPresentation = res;
+    }, error1 => {
+      console.log(error1);
     });
   }
 
   bankService() {
-    this.apiGatewayService.getExternalServicePresentation().subscribe((res: PresentationInterface) => {
+    this.apiGatewayService.getBankServicePresentation().subscribe((res: PresentationInterface) => {
       this.bankPresentation = res;
+    }, error1 => {
+      console.log(error1);
     });
   }
 
   apiGatewayServices() {
-    this.apiGatewayService.getExternalServicePresentation().subscribe((res: PresentationInterface) => {
+    this.apiGatewayService.getApiGatewayServicePresentation().subscribe((res: PresentationInterface) => {
       this.apiGatewayPresentation = res;
+    }, error1 => {
+      console.log(error1);
     });
   }
 
   apiBitcoinServices() {
-    this.apiGatewayService.getExternalServicePresentation().subscribe((res: PresentationInterface) => {
+    this.apiGatewayService.getBitcoinServicePresentation().subscribe((res: PresentationInterface) => {
       this.apiBitcoinPresentation = res;
+    }, error1 => {
+      console.log(error1);
     });
   }
 }
