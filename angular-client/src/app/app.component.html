@@ -1,0 +1,209 @@
+<!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+
+<section class="pricing py-5">
+  <div class="container" style="position:relative;">
+    <div class="row">
+      <div class="col-lg-4"  >
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">
+              {{userPresentation?.name}}
+            </h5>
+            <div class="text-center ">
+              <span class="badge badge-danger">{{userPresentation?.framework}} {{userPresentation?.version}}</span>
+            </div>
+
+            <h6 class="card-price text-center">
+              {{userPresentation?.language}}
+            </h6>
+
+            <div class="text-justify">
+              {{userPresentation?.role}}
+            </div>
+            <hr>
+            <p class="text-center" style="cursor:pointer;">
+              <img (click)="userService()" src="/assets/javalin.png" alt="" width="80">
+            </p>
+            <div class="text-center text-danger">{{userPresentation?.desc}}</div>
+            <a [href]="userPresentation?.siteOfficiel"
+               class="btn btn-block btn-primary text-uppercase"
+               target="_blank">
+              <img src="/assets/Devscom .png" width="25" alt="">
+              Site officiel</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4"  >
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">
+              {{apiGatewayPresentation?.name}}
+            </h5>
+            <div class="text-center ">
+              <span class="badge badge-danger">{{apiGatewayPresentation?.framework}} {{apiGatewayPresentation?.version}}</span>
+            </div>
+
+            <h6 class="card-price text-center">
+              {{apiGatewayPresentation?.language}}
+            </h6>
+
+            <div class="text-justify">
+              {{apiGatewayPresentation?.role}}
+            </div>
+            <hr>
+            <p class="text-center" style="cursor:pointer;">
+              <img (click)="apiGatewayServices()" src="/assets/spring-boot.jpeg" alt="" width="80">
+            </p>
+            <div class="text-center text-danger">{{apiGatewayPresentation?.desc}}</div>
+            <a [href]="apiGatewayPresentation?.siteOfficiel"
+               class="btn btn-block btn-primary text-uppercase"
+               target="_blank">
+              <img src="/assets/Devscom .png" width="25" alt="">
+              Site officiel</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4"  >
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">
+              {{apiBitcoinPresentation?.name}}
+            </h5>
+            <div class="text-center ">
+              <span class="badge badge-danger">{{apiBitcoinPresentation?.framework}} {{apiBitcoinPresentation?.version}}</span>
+            </div>
+
+            <h6 class="card-price text-center">
+              {{apiBitcoinPresentation?.language}}
+            </h6>
+
+            <div class="text-justify">
+              {{apiBitcoinPresentation?.role}}
+            </div>
+            <hr>
+
+            <p class="text-center" style="cursor:pointer;">
+              <img (click)="apiBitcoinServices()" src="/assets/express.png" alt="" height="80">
+            </p>
+            <div class="text-center text-danger">{{apiBitcoinPresentation?.desc}}</div>
+            <a [href]="apiBitcoinPresentation?.siteOfficiel"
+               class="btn btn-block btn-primary text-uppercase"
+               target="_blank">
+              <img src="/assets/Devscom .png" width="25" alt="">
+              Site officiel</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-lg-4"  >
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">
+              {{mobilePaymentPresentation?.name}}
+            </h5>
+            <div class="text-center ">
+              <span class="badge badge-danger">{{mobilePaymentPresentation?.framework}} {{mobilePaymentPresentation?.version}}</span>
+            </div>
+
+            <h6 class="card-price text-center">
+              {{mobilePaymentPresentation?.language}}
+            </h6>
+
+            <div class="text-justify">
+              {{mobilePaymentPresentation?.role}}
+            </div>
+            <hr>
+
+            <p class="text-center" style="cursor:pointer;">
+              <img (click)="mobileService()" src="/assets/flask.jpg" alt="" height="100">
+            </p>
+            <div class="text-center text-danger">{{mobilePaymentPresentation?.desc}}</div>
+            <a [href]="mobilePaymentPresentation?.siteOfficiel"
+               class="btn btn-block btn-primary text-uppercase"
+               target="_blank">
+              <img src="/assets/Devscom .png" width="25" alt="">
+              Site officiel</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4"  >
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">
+              {{externalPresentation?.name}}
+            </h5>
+            <div class="text-center ">
+              <span class="badge badge-danger">{{externalPresentation?.framework}} {{externalPresentation?.version}}</span>
+            </div>
+
+            <h6 class="card-price text-center">
+              {{externalPresentation?.language}}
+            </h6>
+
+            <div class="text-justify">
+              {{externalPresentation?.role}}
+            </div>
+            <hr>
+
+            <p class="text-center" style="cursor:pointer;">
+              <img (click)="externalService()" src="/assets/spark.jpg" alt="" height="100">
+            </p>
+
+            <div class="text-center text-danger">{{externalPresentation?.desc}}</div>
+            <a [href]="externalPresentation?.siteOfficiel"
+               class="btn btn-block btn-primary text-uppercase"
+               target="_blank">
+              <img src="/assets/Devscom .png" width="25" alt="">
+              Site officiel</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4"  >
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">
+              {{bankPresentation?.name}}
+            </h5>
+            <div class="text-center ">
+              <span class="badge badge-danger">{{bankPresentation?.framework}} {{bankPresentation?.version}}</span>
+            </div>
+
+            <h6 class="card-price text-center">
+              {{bankPresentation?.language}}
+            </h6>
+
+            <div class="text-justify">
+              {{bankPresentation?.role}}
+            </div>
+            <hr>
+            <p class="text-center" style="cursor:pointer;">
+              <img (click)="bankService()" src="/assets/lumen.png" alt="" height="125">
+            </p>
+            <span class="text-center text-danger">{{bankPresentation?.desc}}</span>
+            <a [href]="bankPresentation?.siteOfficiel"
+               class="btn btn-block btn-primary text-uppercase "
+               target="_blank">
+              <img src="/assets/Devscom .png" width="25" alt="">
+              Site officiel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <footer class="text-white">
+      <div class="float-right">by mombesoft</div>
+    </footer>
+  </div>
+</section>
+
+

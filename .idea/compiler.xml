@@ -22,6 +22,8 @@
       <module name="external-data-service.main" target="1.8" />
       <module name="external-data-service.test" target="1.8" />
       <module name="spark-core" target="1.8" />
+      <module name="user-service.com.devscom.gn.user-service.main" target="1.8" />
+      <module name="user-service.com.devscom.gn.user-service.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

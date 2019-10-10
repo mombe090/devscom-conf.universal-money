@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
     'language' :'JAVASCRIPT',
     'framework' :'express',
     'version' :'4',
-    'role' :'Je suis le service qui interagit avec les api pour le service bitcoin de l\'universal money',
+    'role' :'Je suis le service qui interagit avec les apis tout ce qui monnaie virtuel blockchain de l\'universal money',
     'desc' :'We love microservice yes, and docker is amazing',
     'siteOfficiel' :'https://expressjs.com/fr/'
   });

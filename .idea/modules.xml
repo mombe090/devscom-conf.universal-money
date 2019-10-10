@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/angular-client/angular-client.iml" filepath="$PROJECT_DIR$/angular-client/angular-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-service/bank-service.iml" filepath="$PROJECT_DIR$/bank-service/bank-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/bitcoin-money-service/bitcoin-money-service.iml" filepath="$PROJECT_DIR$/bitcoin-money-service/bitcoin-money-service.iml" />
@@ -13,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/external-data-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/external-data-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobile-payment-service/mobile-payment-service.iml" filepath="$PROJECT_DIR$/mobile-payment-service/mobile-payment-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service.com.devscom.gn.user-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service.com.devscom.gn.user-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service.com.devscom.gn.user-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service.com.devscom.gn.user-service.test.iml" />
     </modules>
   </component>
 </project>
