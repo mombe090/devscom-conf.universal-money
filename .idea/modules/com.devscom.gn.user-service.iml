@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="user-service" external.linked.project.path="$MODULE_DIR$/../../user-service" external.root.project.path="$MODULE_DIR$/../../user-service" external.system.id="GRADLE" external.system.module.group="com.devscom.gn" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../user-service" rootProjectPath="$MODULE_DIR$/../../user-service" />
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="com.devscom.gn" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId="user-service" linkedProjectPath="$MODULE_DIR$/../../user-service" rootProjectPath="$MODULE_DIR$/../../user-service" />
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../user-service">

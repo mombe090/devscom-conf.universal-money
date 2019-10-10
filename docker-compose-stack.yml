@@ -1,0 +1,68 @@
+version: '3.7'
+
+services:
+  #apiGateway service
+  api-gateway:
+    image: mombe090/api-gateway-service
+    ports:
+      - '8888:8888'
+    deploy:
+      replicas: 3
+      restart_policy:
+        condition: on-failure
+
+#user microservice
+  users:
+    image: mombe090/user-service
+    #ports:
+      #- '7000:7000'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+
+  #user microservice
+  external-data:
+    image: mombe090/external-data-service
+    #ports:
+      #- '4567:4567'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+
+  #user microservice
+  mobile-payment:
+    image: mombe090/mobile-payement-service
+    #ports:
+      #- '5000:5000'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+
+  #bitcoin-money microservice
+  bitcoin-money:
+    image: mombe090/bitcoin-money-service
+    #ports:
+      #- '3333:3333'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+
+  #angular client microservice
+  angular-client:
+    image: mombe090/angular-client
+    ports:
+    - '9090:80'
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+
+networks:
+  default:
+    external:
+      name: StackMoney_Network_Overlay
+
